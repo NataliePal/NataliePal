@@ -1,0 +1,30 @@
+body {
+	background-color: red;
+}
+
+h1 {
+	color: black;
+}
+h2 {
+	color: black;
+}
+nav {
+	color: white;
+}
+
+p {
+	color: white;
+}
+table {
+	background-color: black;
+	border: 2px solid blue;
+}
+ol { color: white;
+ }
+
+aside { color: white;
+}
+
+footer {
+	color: white;
+}
