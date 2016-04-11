@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Marknadsundersökning</title>
+		<meta charset="utf-8">
+		<link href="Style/style.css" rel ="stylesheet">
+	</head>
+	<body>
+	<header>
+	<center>
+			<img src="images/fklogga.jpg" width="100">
+	</header>
+<article>
+	<center><h1>Marknadsundersökning</h1></center>
+		<form>
+		<fieldset class="marknadsruta"> 
+			<legend>Uppgifter</legend>
+	        <p>Kön:<br />
+				<label><input type="radio" name="kön" value="kön" />Kvinna</label>
+				<label><input type="radio" name="kön" value="male" />Man</label></p>
+			
+			<label>Ålder: <input type="number" name="ålder" size="30"></label><br />
+			</fieldset>
+
+		<fieldset class="marknadsruta">
+			<legend>Ditt köp</legend>
+			<p>
+				Hur ofta köper ni matkasse?<br />
+			<label>
+			<input type="radio" name="mat" value="1-2" />1-2ggr/mån </label>
+				
+			<label>
+			<input type="radio" name="mat" value="2-4" />2-4ggr/mån</label>
+			
+			<label>
+			<input type="radio" name="mat" value="3-5" />3-5ggr/mån</label>
+			</p>
+				
+			<p>Hur många är ni i familjen?<br />
+				<label>
+				<input type="radio" name="familj" value="singel" />Singel</label>
+				
+				<label>
+				<input type="radio" name="familj" value="par" />Par</label>
+				
+				<label>
+				<input type="radio" name="familj" value="familj" />Familj, 3-6 personer</label>
+			</p>
+				
+			<p>Är ni nöjda med råvarorna?<br />
+				<label>
+				<input type="radio" name="varor" value="ja"/>Ja</label>
+				
+				<label>
+				<input type="radio" name="varor" value="nej" />Nej</label>
+				
+				<label>
+				<input type="radio" name="mvaror" value="heltokej" />Helt okej</label>	
+			</p>
+			
+				<p>
+				Vad tycker ni om vår utbud av matkassar?<br />
+				<label>
+				<input type="radio" name="utbud" value="bra" />Bra</label>
+				
+				<label>
+				<input type="radio" name="utbud" value="dåligt" />Dålig</label>
+				
+				<label>
+				<input type="radio" name="utbud" value="okej" />Helt okej</label>
+			</p>
+				<p>
+				Skulle du rekomendera någon annan att köpa våra matkassar?
+				<br />
+				<label>
+					<input type="radio" name="rekomendera" value="ja" />Ja</label>
+				<label>
+				<input type="radio" name="rekomendera" value="nej" />Nej</label>
+				
+				<label>
+				<input type="radio" name="rekomendera" value="kanske" />Kanske</label>
+			</p>
+				<p>
+				<label for="comments">Övriga kommentarer:</label>
+				<textarea rows="3" cols="40" id="comments"></textarea>
+			</p>	
+		</fieldset>
+		</form>
+		<form>
+			<fieldset class="marknadsruta">
+				<legend>Webbsidan</legend>
+			<p><label for="hear-about">Hur hörde du om oss?</label>
+				
+				<select name="referrer" id="hear-about">
+					<option value="google">Google</option>
+					<option value="google">Facebook</option>
+					<option value="google">Social media</option>
+					<option value="kompis">Kompis</option>
+					<option value="tidning">Tidning</option>
+					<option value="other">Annat</option>
+					</p>
+				</select>
+
+			<p>Hittar ni lätt den informationen ni behöver?<br />
+
+				<label>
+				<input type="radio" name="rekomendera" value="yes" />Ja</label>
+				
+				<label>
+				<input type="radio" name="rekomendera" value="no" />Nej</label>
+			</p>
+			<p>
+				Jag kan tydligt se var jag befinner mig på webbplatsen, med hjälp av rubriker och sökvägar?<br />
+				
+				<label>
+				<input type="radio" name="rekomendera" value="ja" />Ja</label>
+				
+				<label>
+				<input type="radio" name="rekomendera" value="no" />Nej
+				<input type="radio" name="rekomendera" value="no" />Stämmer </label>
+			</p>
+			<p>
+				Är färgen på webbplatsen behaglig och ger bra kontrast till bilder och text?<br />
+				
+				<label>
+				<input type="radio" name="rekomendera" value="ja" />Ja</label>
+				<label>
+				<input type="radio" name="rekomendera" value="no" />Nej </label>
+			</p>
+				<label>
+				<input type="checkbox" name="subscribe" checked="checked" />Signa upp mig till nyhetsbrev</label>
+				<input type="submit" value="Skicka" />
+				</fieldset></form>
+		</article>
+		<footer>
+			<i>Natalie Palapela <br /> Copyright 2016</i>
+		</footer>
+	</body>
+</html>
