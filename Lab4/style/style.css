@@ -1,0 +1,300 @@
+/* --ALLA SIDOR-- */
+
+body {
+	background-color: white;
+	font-family: copperplate;
+	
+}
+header {
+	background-color: black;
+}
+section{ background-color: white;
+
+}
+aside{ background-color: white;
+
+}
+footer { background-color: black;
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    position: relative;
+    z-index: 2; /*Gör så att dropdownen hamnar överst*/
+
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+}
+#meny{
+	margin: 4px;
+	list-style: none;
+	padding: 5px;
+}
+#meny li{
+	display: inline;
+	list-style-type: none;
+	padding: 0 50px 0 0; 
+	font-family: copperplate;
+	font-size: medium; 
+}
+#meny li:hover{
+	background: white;
+}
+#menyb img:hover{
+	background: white;
+}
+.b1 {
+	width:120px;
+}
+.vk{
+	width: 100px;
+	float: right;
+	margin-top: 80px; 
+	margin-right: 5px;
+}
+.varuk{
+	width: 25px;
+	float: right;
+	margin-top: 80px;
+}
+.login{
+	width: 35px;
+	float: right;
+	margin-left:150px;
+	margin-bottom: 30px;	
+}
+.white { color: white ;
+}
+.whitef{ color:white;
+ }
+
+.footer1{
+	background-color: black;	
+}
+.socialm { 
+	width: 200px;
+	padding: 60px 20px 30px 40px;
+	margin-left: 30px; 
+}
+.fig1 {
+	font-family: Copperplate;
+	font-size: 16px;
+	font:bold;
+	text-align: center;
+	color: black;
+}
+.f1{
+	float: left;
+	list-style-type: none;
+	font-family: Copperplate;
+	font-size: 11px;
+	color: #000000;	
+}
+section img{
+	width: 650px;
+}
+.sltext{
+	font-family: copperplate;
+	font-size: 20px;
+	text-align: center;
+}
+aside img{ 
+	width: 120px;
+}
+.asidelas{
+	width: 160px;
+}
+.visakort{
+	width: 110px;
+	margin-top: 50px;
+}
+.lastbil{
+	width: 110px;
+	margin-top: 40px;
+}
+
+/*--PRODUKT SIDA--*/
+
+.sectionskassar{
+ 	width: 650px;
+ 	height: 250px
+}
+.marginal{
+	padding-bottom: 6px;
+}
+.varukorgruta{
+	font-family: copperplate;
+	font-size: 15px;
+	color: black;
+}
+.varukorgram{
+	font-family: copperplate;
+	font-size: 14px;
+	font:bold;
+	border: 8px;
+	background: white;
+	border:2px solid black;
+}
+.info{
+	margin-top: 5px;
+}
+.produkttext {
+	font-family: copperplate;
+	font-size: 16px;
+	font:bold;
+	text-align: center;
+}
+.text1{
+	font-family: copperplate;
+	font-size: 17px;
+	color: black;
+	text-align: center;
+	margin-top: 50px;
+}
+.kassetext{
+	font-family: copperplate;
+	font-size: 15px;
+	color: black;
+	text-align: left;
+}
+.varukorg{
+	font-family: copperplate;
+	font-size: 11px;
+	color: black;
+}
+
+/*--VARUKORG--*/
+
+.kassaflode{
+	width: 400px;	
+}
+.breadcrumbs{
+	font-family: copperplate;
+	font-size: 17px;
+	color: black;
+}
+.varukorgrubrik{
+	font-family: copperplate;
+	font-size: 40px;
+	font:bold;
+}
+.varukorgsbild{
+	width: 100px;
+	margin-top:0;
+}
+.varukorgstext{
+	font-family: copperplate;
+	font-size: 20px;
+	font:bold;
+	margin-top: 70px;
+}	
+.knappram{
+	font-family: copperplate;
+	font-size: 15px;
+	font:bold;
+	border-radius: 10px;
+	background: white;
+	border:2px solid black;
+	margin-bottom: 40px;
+	margin-left:900px;
+}
+.totalt {
+	float: right;
+	padding-right: 100px;
+}
+.summa {
+	color:red !important;
+}
+/*--MIN SIDA--*/
+
+.minsida{
+	width: 80px;
+	float: left;	
+}
+.minsidar{
+	color: black;
+	font-family: copperplate;
+	font-size: 18px;
+	font:bold;	
+}
+.typsnitt{
+	font-family: helvetica;
+	font-size: 15px;
+}
+.form {
+	margin-top: 5px;
+	font-size: 12px;
+}
+.form1{
+	float: right;
+	clear: both;
+	margin-right: 80px;
+	margin-bottom: 3px;
+}
+.kalkyl{funkar inte!
+	float: right;
+	margin-left: 950px;
+}
+.minsidatext{ funkar inte!
+	float: left;
+	color: black;
+	font-family: copperplate;
+	font-size: 15px;
+	font:bold;
+	text-align: left;
+}
+.undersokning{
+	color: red;
+}
+/*--FORMULÄR--*/
+h1{
+	text-align: center;
+}
+.marknadsruta{
+	text-align: center;
+	font-size: 15px;
+}
+
