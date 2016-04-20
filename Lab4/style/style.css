@@ -31,7 +31,7 @@ li {
 
 li a, .dropbtn {
     display: inline-block;
-    color: white;
+    color:white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -57,7 +57,6 @@ li.dropdown {
     display: block;
     text-align: left;
     position: relative;
-    z-index: 2; /*Gör så att dropdownen hamnar överst*/
 
 
 }
